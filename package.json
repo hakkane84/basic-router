@@ -1,0 +1,16 @@
+{
+    "name": "sia_eval_docker",
+    "version": "1.0.0",
+    "description": "Sia evaluator node on Docker",
+    "author": "Salva Herrera <keops_cc@outlook.com>",
+    "main": "eval_restserver.js",
+    "scripts": {
+        "start": "node eval_restserver.js"
+    },
+    "dependencies": {
+        "babel-runtime": "^6.26.0",
+        "body-parser": "^1.19.0",
+        "express": "^4.17.1",
+        "sia.js": "^0.4.2"
+    }
+}
