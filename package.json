@@ -1,11 +1,11 @@
 {
-    "name": "sia_eval_docker",
+    "name": "basic_router",
     "version": "1.0.0",
-    "description": "Sia evaluator node on Docker",
+    "description": "A remote Sia node interacted safely through authenticated API calls and deployable in Docker",
     "author": "Salva Herrera <keops_cc@outlook.com>",
-    "main": "eval_restserver.js",
+    "main": "router.js",
     "scripts": {
-        "start": "node eval_restserver.js"
+        "start": "router.js"
     },
     "dependencies": {
         "babel-runtime": "^6.26.0",
